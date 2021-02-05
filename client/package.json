@@ -1,5 +1,5 @@
 {
-  "name": "wp5-starter-react-ts",
+  "name": "wp5-starter-react",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
@@ -32,6 +32,7 @@
     "@apollo/client": "^3.3.7",
     "graphql": "^15.5.0",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "subscriptions-transport-ws": "^0.9.18"
   }
 }

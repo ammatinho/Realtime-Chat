@@ -40,10 +40,12 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "starter",
+      name: "chat",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Chat": "./src/Chat"
+      },
       shared: {
         ...deps,
         react: {
